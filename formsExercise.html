@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a webpage exercise for Forms from 8-20-21">
+    <title>Survey</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Customer Experince Survey</legend>
+            <div>
+                <label for="storeNumber">Store Number</label>
+                <select id="storeNumber">
+                    <option value="selectAStore" hidden>Select A Store</option>
+                    <option value="3109">3109</option>
+                    <option value="2421">2421</option>
+                    <option value="5357">5357</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>When you visited</legend>
+                <div>
+                    <label for="dateVisited">Date Visited</label>
+                    <input type="date" name="dateAndTimeVisited" id="dateVisited" value="2021-08-20" min="2021-01-01" max="2021-12-31">
+                </div>
+                <div>
+                    <label for="time">Time</label>
+                    <input type="time" name="dateAndTimeVisited" id="time">
+                </div>
+            </fieldset>
+            <div>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <fieldset>
+                <legend>Gender</legend>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" checked>
+                    <label for="female">Female</label>
+                </div>
+            </fieldset>
+            <div>
+                <label for="experience">Tell us about your experience:</label>
+                <br>
+                <textarea name="experience" id="experience" cols="19" rows="2"></textarea>
+            </div>
+            <div>
+                <label for="numberOfTimes">Times visited in the last month:</label>
+                <br>
+                <input type="number" name="numberOfTimes" id="numberOfTimes" min="1" max="30">
+            </div>
+            <input type="checkbox" name="contactPermission" id="contactPermission" required>
+            <label for="contactPermission">Please check the box if you would be willing to be contacted about your experince</label>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+            <br>
+            <input type="reset" value="Reset">
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
