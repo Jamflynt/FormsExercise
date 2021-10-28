@@ -9,6 +9,5 @@ BONUS…
 3. Have “Female” selected by default when the page loads
 4. Set the range for “Times visited…” from 1 and 30
 5. Set up the “Please check…” checkbox so that it needs to be checked for the form to be submitted
-6. Create a password input below the checkbox input. Set a minimum and maximum length for the password input that is 5 and 10 characters. Also have the following message display when user has not met the minimum and maximum length requirements…
-  a. “Please enter a password that is 5 to 10 characters in length”
+6. Create a password input below the checkbox input. Set a minimum and maximum length for the password input that is 5 and 10 characters. Also have the following message display when user has not met the minimum and maximum length requirements: “Please enter a password that is 5 to 10 characters in length”
 7. Include a Reset input before the Submit input at the bottom
